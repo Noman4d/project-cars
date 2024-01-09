@@ -50,12 +50,13 @@ body{
     align-items: center;
     border: 1px solid transparent;
     transition: .5s;
-}
+    
 .header-icons{
     display: flex;
     height: 40px;
     width: 150px;
     justify-content: space-between;
+}
 }
 .header-icons a i{
     font-size: 22px;
@@ -63,4 +64,44 @@ body{
 }
 .header-icons a:hover{
     border-color: red;
+}
+/* main  */
+.home{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 50px 8% 0;
+}
+.home-content{
+    width: 630px;
+}
+.home-content h1{
+        font-size: 50px;
+        font-weight: 600px;
+        line-height: 1.2;
+}
+.home-content h3{
+    font-size: 40px;
+    color: blue;
+}
+.home-content p{
+    font-size: 16px;
+    margin: 15px 0 30px;
+}
+.home-content .btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: wheat;
+    transition: .5s;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #222;
 }
